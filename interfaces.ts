@@ -1,7 +1,6 @@
-export interface CommunitiesInterface {
+export interface CommunityInterface {
   name: string;
-  description: string;
-  socials: {
+  links: {
     website?: string;
     github?: string;
     telegram?: string;
@@ -9,6 +8,8 @@ export interface CommunitiesInterface {
     discord?: string;
     linkedin?: string;
     facebook?: string;
-    threads?: string;
+    instagram?: string;
+    whatsapp?: string;
+    meetup?: string;
   };
 }
