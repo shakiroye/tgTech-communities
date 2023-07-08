@@ -1,4 +1,4 @@
-import { CommunityInterface } from "interfaces";
+import { CommunityInterface } from "types";
 
 export const communities: CommunityInterface[] = [
   {

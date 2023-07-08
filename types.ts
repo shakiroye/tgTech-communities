@@ -11,5 +11,6 @@ export interface CommunityInterface {
     instagram?: string;
     whatsapp?: string;
     meetup?: string;
+    youtube?: string;
   };
 }
