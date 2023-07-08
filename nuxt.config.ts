@@ -11,4 +11,8 @@ export default defineNuxtConfig({
   },
 
   modules: ["@nuxthq/ui"],
+
+  ui: {
+    icons: ["heroicons", "bxl", "mdi", "fluent"],
+  },
 });
