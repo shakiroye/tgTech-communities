@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "togo-tech-communities",
   "private": true,
   "scripts": {
     "build": "nuxt build",
