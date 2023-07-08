@@ -7,5 +7,9 @@ html {
   font-family: "Inter", sans-serif;
 }
 body {
-  @apply bg-white dark:bg-green-950;
+  @apply bg-white dark:bg-black;
+}
+
+main {
+  @apply px-5 py-3 sm:px-10 md:px-20;
 }
