@@ -126,6 +126,15 @@ const communities = useCommunities();
                 class="i-mdi-meetup h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
               ></i>
             </NuxtLink>
+            <NuxtLink
+              v-if="community.links.youtube"
+              :to="community.links.youtube"
+              target="_blank"
+            >
+              <i
+                class="i-mdi-youtube h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
+              ></i>
+            </NuxtLink>
           </div>
         </div>
       </div>
