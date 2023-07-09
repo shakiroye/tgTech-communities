@@ -13,3 +13,7 @@ body {
 main {
   @apply px-5 py-3 sm:px-10 md:px-20;
 }
+
+input {
+  @apply p-2 rounded-lg bg-transparent border-2 dark:border-gray-700 focus:outline-none;
+}

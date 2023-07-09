@@ -8,9 +8,9 @@ const colorMode = useColorMode();
         <i
           class="i-fluent-people-community-20-regular h-8 w-8 transition duration-500 ease-in-out text-primary-900"
         ></i>
-        <h1 class="font-bold text-lg">Togo Tech Communities</h1>
+        <h1 class="font-bold sm:text-lg">Togo Tech Communities</h1>
       </NuxtLink>
-      <div class="flex gap-3 cursor-pointer">
+      <div class="flex items-center gap-3 cursor-pointer">
         <i
           class="i-heroicons-moon h-6 w-6 transition duration-500 ease-in-out"
           v-if="colorMode.preference === 'light'"
@@ -24,8 +24,10 @@ const colorMode = useColorMode();
         <NuxtLink
           to="https://github.com/shakiroye/tgTech-communities"
           target="_blank"
+          class="w-fit sm:bg-primary-700 sm:dark:bg-primary-900 sm:py-2 sm:px-5 text-white rounded-lg text-lg flex items-center gap-2"
         >
           <i class="i-bxl-github h-6 w-6 transition duration-500 ease-in-out" />
+          <small class="hidden sm:block text-md"> Add a community </small>
         </NuxtLink>
       </div>
     </div>
