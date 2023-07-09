@@ -24,7 +24,7 @@ const colorMode = useColorMode();
         <NuxtLink
           to="https://github.com/shakiroye/tgTech-communities"
           target="_blank"
-          class="w-fit sm:bg-primary-700 sm:dark:bg-primary-900 sm:py-2 sm:px-5 text-white rounded-lg text-lg flex items-center gap-2"
+          class="w-fit sm:bg-primary-700 sm:dark:bg-primary-900 sm:py-2 sm:px-5 sm:text-white rounded-lg text-lg flex items-center gap-2"
         >
           <i class="i-bxl-github h-6 w-6 transition duration-500 ease-in-out" />
           <small class="hidden sm:block text-md"> Add a community </small>
