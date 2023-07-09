@@ -15,7 +15,7 @@ const communities = useCommunities();
           Discover the Thriving Tech Communities shaping Togo's Future.
         </p>
         <NuxtLink
-          to="https://github.com/shakiroye/tgTech-communities"
+          to="https://github.com/shakiroye/tgTech-communities/blob/main/CONTRIBUTING.md"
           target="_blank"
           class="w-fit bg-primary-700 p-3 text-white rounded-full flex items-center gap-2"
         >
