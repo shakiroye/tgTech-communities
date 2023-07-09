@@ -1,6 +1,22 @@
 <script setup lang="ts">
 import { useCommunities } from "@/composables/useCommunities";
+import { CommunityInterface } from "types";
 const communities = useCommunities();
+const search = ref("");
+const filteredCommunities: Ref<CommunityInterface[]> = ref([]);
+
+watchEffect(() => {
+  const searchTerm = search.value.toLowerCase();
+
+  if (searchTerm === "") {
+    filteredCommunities.value = communities.value;
+  } else {
+    filteredCommunities.value = communities.value.filter((community) => {
+      const communityName = community.name.toLowerCase();
+      return communityName.includes(searchTerm);
+    });
+  }
+});
 </script>
 
 <template>
@@ -14,13 +30,14 @@ const communities = useCommunities();
         <p class="text-gray-500">
           Discover the Thriving Tech Communities shaping Togo's Future.
         </p>
-        <NuxtLink
-          to="https://github.com/shakiroye/tgTech-communities/blob/main/CONTRIBUTING.md"
-          target="_blank"
-          class="w-fit bg-primary-700 p-3 text-white rounded-full flex items-center gap-2"
-        >
-          <small class="text-md"> Add a community </small>
-        </NuxtLink>
+
+        <input
+          type="search"
+          name="search"
+          id="search"
+          v-model="search"
+          placeholder="Search..."
+        />
       </div>
 
       <div
@@ -28,7 +45,7 @@ const communities = useCommunities();
       >
         <div
           class="p-3 rounded-lg border-2 transition duration-500 ease-in-out hover:border-primary-500 dark:hover:border-primary-900 dark:border-gray-700"
-          v-for="(community, index) in communities"
+          v-for="(community, index) in filteredCommunities"
           :key="index"
         >
           <h3 class="font-bold text-xl mb-3">{{ community.name }}</h3>
