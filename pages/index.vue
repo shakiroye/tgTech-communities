@@ -43,7 +43,7 @@ const communities = useCommunities();
             >
               <i
                 class="i-heroicons-globe-alt h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700 dark:hover:border-primary-900"
-              ></i>
+              />
             </NuxtLink>
             <NuxtLink
               v-if="community.links.github"
@@ -52,7 +52,7 @@ const communities = useCommunities();
             >
               <i
                 class="i-bxl-github h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
-              ></i>
+              />
             </NuxtLink>
             <NuxtLink
               v-if="community.links.telegram"
@@ -61,7 +61,7 @@ const communities = useCommunities();
             >
               <i
                 class="i-bxl-telegram h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
-              ></i>
+              />
             </NuxtLink>
             <NuxtLink
               v-if="community.links.twitter"
@@ -70,7 +70,7 @@ const communities = useCommunities();
             >
               <i
                 class="i-bxl-twitter h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
-              ></i>
+              />
             </NuxtLink>
             <NuxtLink
               v-if="community.links.discord"
@@ -79,7 +79,7 @@ const communities = useCommunities();
             >
               <i
                 class="i-bxl-discord-alt h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
-              ></i>
+              />
             </NuxtLink>
             <NuxtLink
               v-if="community.links.linkedin"
@@ -88,7 +88,7 @@ const communities = useCommunities();
             >
               <i
                 class="i-bxl-linkedin h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
-              ></i>
+              />
             </NuxtLink>
             <NuxtLink
               v-if="community.links.facebook"
@@ -97,7 +97,7 @@ const communities = useCommunities();
             >
               <i
                 class="i-bxl-facebook-circle h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
-              ></i>
+              />
             </NuxtLink>
             <NuxtLink
               v-if="community.links.instagram"
@@ -106,7 +106,7 @@ const communities = useCommunities();
             >
               <i
                 class="i-bxl-instagram h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
-              ></i>
+              />
             </NuxtLink>
             <NuxtLink
               v-if="community.links.whatsapp"
@@ -115,7 +115,7 @@ const communities = useCommunities();
             >
               <i
                 class="i-bxl-whatsapp h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
-              ></i>
+              />
             </NuxtLink>
             <NuxtLink
               v-if="community.links.meetup"
@@ -124,7 +124,7 @@ const communities = useCommunities();
             >
               <i
                 class="i-mdi-meetup h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
-              ></i>
+              />
             </NuxtLink>
             <NuxtLink
               v-if="community.links.youtube"
@@ -133,7 +133,7 @@ const communities = useCommunities();
             >
               <i
                 class="i-mdi-youtube h-6 w-6 transition duration-100 ease-in-out hover:text-primary-700"
-              ></i>
+              />
             </NuxtLink>
           </div>
         </div>
