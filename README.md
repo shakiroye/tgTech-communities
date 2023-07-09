@@ -31,4 +31,4 @@ Within this file, you'll find an array consisting of objects that represent port
 7. Open and submit a PR.
 
 ## Credit
-Got inspired from the great work of [Gausoft](https://github.com/gausoft/awesome-TgTech-communities)
+This project was inspired by the great work of [Gausoft](https://github.com/gausoft/awesome-TgTech-communities)
