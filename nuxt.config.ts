@@ -15,4 +15,8 @@ export default defineNuxtConfig({
   ui: {
     icons: ["heroicons", "bxl", "mdi", "fluent"],
   },
+
+  colorMode: {
+    preference: "dark",
+  },
 });
