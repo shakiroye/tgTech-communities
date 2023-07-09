@@ -19,10 +19,7 @@ const communities = useCommunities();
           target="_blank"
           class="w-fit bg-primary-700 p-3 text-white rounded-full flex items-center gap-2"
         >
-          <i
-            class="i-bxl-github h-6 w-6 transition duration-500 ease-in-out"
-          ></i>
-          <small class="text-md"> Contribute to the project </small>
+          <small class="text-md"> Add a community </small>
         </NuxtLink>
       </div>
 
