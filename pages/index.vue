@@ -153,6 +153,14 @@ watchEffect(() => {
         </div>
       </div>
 
+      <div v-if="filteredCommunities.length === 0">
+        <p
+          class="text-center text-xl sm:text-2xl md:tsext-3xl font-medium opacity-80"
+        >
+          Sorry, we did not find any results for" {{ search }} "
+        </p>
+      </div>
+
       <div
         class="fixed -z-50 right-16 -bottom-44 w-1/4 h-1/2 bg-gradient-to-r from-primary-400/20 to-cyan-400/20 blur-3xl rounded-full"
       ></div>
