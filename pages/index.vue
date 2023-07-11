@@ -37,6 +37,7 @@ watchEffect(() => {
           id="search"
           v-model="search"
           placeholder="Search..."
+          class="w-80"
         />
       </div>
 
@@ -48,8 +49,11 @@ watchEffect(() => {
           v-for="(community, index) in filteredCommunities"
           :key="index"
         >
-          <h3 class="font-bold text-xl mb-3">{{ community.name }}</h3>
-          <div class="flex flex-wrap gap-4">
+          <div class="flex justify-center mb-4">
+            <img :src="community.image" class="rounded-full w-20" :alt="community.name + ' logo'" >
+          </div>
+          <h3 class="font-bold text-xl text-center mb-3">{{ community.name }}</h3>
+          <div class="flex flex-wrap gap-4 justify-center">
             <NuxtLink
               v-if="community.links.website"
               :to="community.links.website"
@@ -150,6 +154,7 @@ watchEffect(() => {
               />
             </NuxtLink>
           </div>
+          <p class="text-center mt-4 text-xs">{{ community.description }}</p>
         </div>
       </div>
 
