@@ -50,7 +50,7 @@ watchEffect(() => {
           :key="index"
         >
           <div class="flex justify-center mb-4">
-            <img :src="community.image" class="rounded-full w-20" :alt="community.name + ' logo'" >
+            <img :src="`/${community.image}`" class="rounded-full w-20" :alt="community.name + ' logo'" >
           </div>
           <h3 class="font-bold text-xl text-center mb-3">{{ community.name }}</h3>
           <div class="flex flex-wrap gap-4 justify-center">
