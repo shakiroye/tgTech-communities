@@ -1,5 +1,7 @@
 export interface CommunityInterface {
   name: string;
+  image: string;
+  description: string;
   links: {
     website?: string;
     github?: string;
