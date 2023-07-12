@@ -42,17 +42,24 @@ watchEffect(() => {
       </div>
 
       <div
-        class="w-full z-50 rounded-lg p-3 grid grid-flow-row-dense sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"
+        class="w-full z-50 rounded-lg p-3 grid grid-flow-row-dense sm:grid-cols-2 lg:grid-cols-3 gap-4"
       >
         <div
-          class="p-3 rounded-lg border-2 transition duration-500 ease-in-out hover:border-primary-500 dark:hover:border-primary-900 dark:border-gray-700"
+          class="p-3 flex flex-col gap-3 rounded-lg border-2 transition duration-500 ease-in-out hover:border-primary-500 dark:hover:border-primary-900 dark:border-gray-700"
           v-for="(community, index) in filteredCommunities"
           :key="index"
         >
           <div class="flex justify-center mb-4">
-            <img :src="`/${community.image}`" class="rounded-full w-20" :alt="community.name + ' logo'" >
+            <img
+              :src="`/${community.image}`"
+              class="rounded-full w-20"
+              :alt="community.name + ' logo'"
+            />
           </div>
-          <h3 class="font-bold text-xl text-center mb-3">{{ community.name }}</h3>
+          <h3 class="font-bold text-xl text-center">
+            {{ community.name }}
+          </h3>
+          <p class="text-center text-sm">{{ community.description }}</p>
           <div class="flex flex-wrap gap-4 justify-center">
             <NuxtLink
               v-if="community.links.website"
@@ -154,7 +161,6 @@ watchEffect(() => {
               />
             </NuxtLink>
           </div>
-          <p class="text-center mt-4 text-xs">{{ community.description }}</p>
         </div>
       </div>
 
