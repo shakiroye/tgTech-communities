@@ -8,7 +8,7 @@ const searchTerm = ref("");
 const filteredCommunities: Ref<CommunityInterface[]> = ref([]);
 
 const isSearchResultsEmpty = computed(
-  () => filteredCommunities.value.length === 0
+  () => filteredCommunities.value.length === 0 && searchTerm.value
 );
 
 onMounted(() => {
