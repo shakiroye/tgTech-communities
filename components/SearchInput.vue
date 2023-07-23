@@ -13,7 +13,7 @@ watch(search, (value) => {
     name="search"
     id="search"
     v-model="search"
-    placeholder="Search..."
+    placeholder="Search a community..."
     class="w-80"
   />
 </template>
