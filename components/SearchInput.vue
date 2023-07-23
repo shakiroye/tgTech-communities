@@ -17,5 +17,3 @@ watch(search, (value) => {
     class="w-80"
   />
 </template>
-
-<style scoped></style>
