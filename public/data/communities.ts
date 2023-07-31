@@ -169,4 +169,12 @@ export const communities: CommunityInterface[] = [
       github: "https://github.com/odtt",
     },
   },
+  {
+    name: "Togo BlockChain Community",
+    image: "images/togobc.jpg",
+    description: "Nous sommes en train de créer une communauté qui regroupe les passionnés de la Blockchain et du web3, où nous pourrons apprendre et développer des projets ensemble",
+    links: {
+      telegram: "https://t.me/+nR4YRtHqZudmZDQ0",
+    },
+  },
 ];
