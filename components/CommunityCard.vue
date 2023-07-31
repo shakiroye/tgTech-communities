@@ -12,9 +12,16 @@ defineProps({
   <div
     class="p-3 flex flex-col gap-3 rounded-lg border-2 transition duration-500 ease-in-out hover:-translate-y-1.5 hover:border-primary-500 dark:hover:border-primary-900 dark:border-gray-700"
   >
-    <div class="flex justify-center mb-4">
+    <div class="flex justify-center mb-4" v-if="community.image">
       <img
         :src="`/${community.image}`"
+        class="rounded-full w-20"
+        :alt="community.name + ' logo'"
+      />
+    </div>
+    <div class="flex justify-center mb-4" v-else>
+      <img
+        :src="`/images/placeholder.png`"
         class="rounded-full w-20"
         :alt="community.name + ' logo'"
       />
