@@ -91,6 +91,20 @@ export const communities: CommunityInterface[] = [
     },
   },
   {
+    name: "GDSC Lomé Business School",
+    image: "images/gdsc-lbs.png",
+    description:
+      "Qu'est ce que le Google Développer Student Club? C'est un programme que Google Organise à l'endroit des étudiants des universités technologiques, des développeurs d'applications et de toute personne désireuse de se lancer dans le domaine des technologies.",
+    links: {
+      whatsapp: "https://chat.whatsapp.com/HxK14C0txpG0Tcc7D9sl1W",
+      twitter: "https://x.com/gdsc_lbs",
+      website: "https://gdsc.community.dev/lome-business-school-lome-togo/",
+      github: "https://github.com/gdsclbs",
+      linkedin: "https://www.linkedin.com/company/gdsclbs",
+      facebook: "https://www.facebook.com/profile.php?id=61555156624809",
+    },
+  },
+  {
     name: "Zindi Togo",
     image: "images/zindi-togo.jpg",
     description: "Communauté Zindi Togo 🇹🇬",
