@@ -1,6 +1,21 @@
 import { CommunityInterface } from "types";
 
 export const communities: CommunityInterface[] = [
+   {
+    name: "GDG Lomé",
+    image: "images/gdg-lome.png",
+    description:
+      "Le Groupe des Développeurs Google (GDG Lome) est une communauté de développeurs passionnés des technologies Google. GDG Lomé, depuis 2011 oriente et propulse la carrière des développeurs, et mènent des actions avec ses partenaires pour créer un écosystème numérique inclusif.",
+    links: {
+      telegram: "https://t.me/gdglome",
+      twitter: "https://x.com/GDGLome",
+      website: "http://gdglome.org",
+      linkedin: "https://www.linkedin.com/company/gdg-lome/",
+      facebook: "https://web.facebook.com/GDGLome",
+      mail: "info@gdglome.org",
+      email: "info@gdglome.org",
+    },
+  },
   {
     name: "TDev",
     image: "images/tdev-community.jpg",
