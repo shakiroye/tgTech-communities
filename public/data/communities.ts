@@ -1,7 +1,7 @@
 import { CommunityInterface } from "types";
 
 export const communities: CommunityInterface[] = [
-   {
+  {
     name: "GDG Lomé",
     image: "images/gdg-lome.png",
     description:
@@ -12,8 +12,6 @@ export const communities: CommunityInterface[] = [
       website: "http://gdglome.org",
       linkedin: "https://www.linkedin.com/company/gdg-lome/",
       facebook: "https://web.facebook.com/GDGLome",
-      mail: "info@gdglome.org",
-      email: "info@gdglome.org",
     },
   },
   {
@@ -216,6 +214,18 @@ export const communities: CommunityInterface[] = [
       "Nous sommes en train de créer une communauté qui regroupe les passionnés de la Blockchain et du web3, où nous pourrons apprendre et développer des projets ensemble",
     links: {
       telegram: "https://t.me/+nR4YRtHqZudmZDQ0",
+    },
+  },
+  {
+    name: "Amazing Girls in Tech",
+    image: "images/AmazingGirls.jpg",
+    description:
+      "une plateforme dédiée à l’émancipation des jeunes filles dans le domaine de la technologie. Notre objectif est d’inspirer et d’encourager les jeunes filles à explorer les différents domaines de la tech, à susciter leur intérêt et à développer leurs compétences",
+    links: {
+      twitter: "https://x.com/amazing_tgirls",
+      website: "https://amazingtechgirls.org/",
+      linkedin: "https://www.linkedin.com/company/amazingtechgirls",
+      facebook: "https://www.facebook.com/amazingtechgirls/",
     },
   },
 ];
