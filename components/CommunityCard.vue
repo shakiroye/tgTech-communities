@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { CommunityInterface } from "types";
+import type { CommunityInterface } from "~/types";
 
 defineProps({
   community: {
