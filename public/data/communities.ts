@@ -1,4 +1,4 @@
-import { CommunityInterface } from "types";
+import type { CommunityInterface } from "~/types";
 
 export const communities: CommunityInterface[] = [
   {
@@ -226,6 +226,15 @@ export const communities: CommunityInterface[] = [
       website: "https://amazingtechgirls.org/",
       linkedin: "https://www.linkedin.com/company/amazingtechgirls",
       facebook: "https://www.facebook.com/amazingtechgirls/",
+    },
+  },
+  {
+    name: "Communauté Tech KARA",
+    image: "images/kara-community.png",
+    description:
+      "Nous sommes une communauté technologique basée à Kara, au Togo, dédiée à la promotion de l'innovation, de l'apprentissage et de la collaboration dans le domaine des technologies de l'information et de la communication (TIC).",
+    links: {
+      whatsapp: "https://chat.whatsapp.com/DlRWHCXPm5LHDzTarmzSEK",
     },
   },
 ];

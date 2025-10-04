@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useCommunities } from "@/composables/useCommunities";
-import { CommunityInterface } from "types";
+import type { CommunityInterface } from "~/types";
 import SearchInput from "~/components/SearchInput.vue";
 
 const communities = useCommunities();
