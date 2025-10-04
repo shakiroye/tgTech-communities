@@ -237,4 +237,13 @@ export const communities: CommunityInterface[] = [
       whatsapp: "https://chat.whatsapp.com/DlRWHCXPm5LHDzTarmzSEK",
     },
   },
+  {
+    name: "OverShare Community",
+    image: "images/overshare-community.png",
+    description:
+      "OverShare Community est une communauté interdisciplinaire basée à Kara, qui héberge en son sein un pôle technologique où l'on prône le partage des connaissances, la maîtrise des diverses technologies, le renforcement de l'esprit de collaboration et l'ambition de faire évoluer le secteur digital de la ville vers un niveau supérieur.",
+    links: {
+      whatsapp: "https://chat.whatsapp.com/IGAzkIqbNhy3wtW8G4191d",
+    },
+  },
 ];
