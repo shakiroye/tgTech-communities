@@ -60,7 +60,7 @@ const filterCommunities = (searchQuery: string) => {
     </div>
 
     <div
-      class="fixed -z-50 right-16 -bottom-44 w-1/4 h-1/2 bg-gradient-to-r from-primary-400/20 to-cyan-400/20 blur-3xl rounded-full"
+      class="fixed -z-50 left-0 bottom-0 w-full h-32 bg-gradient-to-r from-primary-400/20 to-cyan-400/20 blur-3xl"
     ></div>
     <div
       class="dark:fixed -z-50 left-0 bottom-0 w-full h-full bg-gradient-to-r from-primary-400/10 to-cyan-400/10 blur-sm"
