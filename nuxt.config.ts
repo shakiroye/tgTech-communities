@@ -1,20 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: '2025-10-05',
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
 
   postcss: {
     plugins: {
-      tailwindcss: {},
+      '@tailwindcss/postcss': {},
       autoprefixer: {},
     },
   },
 
-  modules: ["@nuxthq/ui"],
-
-  ui: {
-    icons: ["heroicons", "bxl", "mdi", "fluent"],
-  },
+  modules: ["@nuxt/ui"],
 
   colorMode: {
     preference: "dark",

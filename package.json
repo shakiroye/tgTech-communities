@@ -9,17 +9,20 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@nuxthq/ui": "^2.5.0",
-    "@types/node": "^18",
-    "autoprefixer": "^10.4.14",
-    "nuxt": "^3.6.2",
-    "postcss": "^8.4.25",
-    "tailwindcss": "^3.3.2"
+    "@nuxt/devtools": "2.6.5",
+    "@nuxt/ui": "4.0.1",
+    "@tailwindcss/postcss": "4.1.14",
+    "@types/node": "24.6.2",
+    "autoprefixer": "10.4.21",
+    "nuxt": "4.1.2",
+    "postcss": "8.5.6",
+    "tailwindcss": "4.1.14"
   },
   "dependencies": {
-    "@iconify-json/bxl": "^1.1.6",
-    "@iconify-json/fluent": "^1.1.26",
-    "@iconify-json/mdi": "^1.1.52"
+    "@iconify-json/bxl": "1.2.2",
+    "@iconify-json/fluent": "1.2.32",
+    "@iconify-json/heroicons": "1.2.3",
+    "@iconify-json/mdi": "1.2.3",
+    "@iconify-json/simple-icons": "1.2.54"
   }
 }

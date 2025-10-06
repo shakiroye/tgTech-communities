@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "@nuxt/ui";
 
 html {
   font-family: "Inter", sans-serif;
 }
+
 body {
   @apply bg-white dark:bg-black;
 }
