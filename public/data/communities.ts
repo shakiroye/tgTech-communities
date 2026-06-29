@@ -246,4 +246,15 @@ export const communities: CommunityInterface[] = [
       whatsapp: "https://chat.whatsapp.com/IGAzkIqbNhy3wtW8G4191d",
     },
   },
+  {
+    name: "IT HUB : Communautés technologiques du Togo",
+    image: "images/ithub.jpg",
+    description: "IT HUB est une communauté tech panafricaine dédiée à la formation et à la mise en réseau des talents du numérique à travers l'Afrique. Elle rassemble les passionnés de technologie autour d'événements, de ressources et d'échanges qui accélèrent leur montée en compétences et leur insertion professionnelle dans l'écosystème tech africain.",
+    links: {
+      tiktok: "https://www.tiktok.com/@ithub_community",
+      linkedin: "https://www.linkedin.com/company/i-t-h-u-b",
+      whatsapp: "https://chat.whatsapp.com/HXP5RutfLGn20Cey8aOiRh",
+      youtube: "https://www.youtube.com/@IT-H-UB"
+    }
+  },
 ];
